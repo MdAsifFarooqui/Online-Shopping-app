@@ -7,7 +7,7 @@ async function makeNetworkCall(){
         const response = await fetch(URL);
         const object = await response.json();
         return object;
-    }
+    }   
     catch(error){
         console.log('Some Problem in API call',error);
         throw error;

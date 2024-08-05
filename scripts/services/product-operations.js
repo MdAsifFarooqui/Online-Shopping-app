@@ -8,7 +8,7 @@ import makeNetworkCall from "./api-client.js";
         const product = this.products.find(currentProduct => currentProduct.id ==pizzaId);
         console.log('prduct found',product);
         product.isAddedInCart = true;
-        console.log(this.products);
+        console.log(this.products);  
         
     },
     getProductInCart(){
