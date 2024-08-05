@@ -5,7 +5,7 @@
     margin-bottom: 20px; /* Space between cards */
     margin-right: 20px; /* Space between cards horizontally */
     border-radius: 8px; /* Rounded corners */
-    overflow: hidden; /* Prevents content from overflowing */
+    overflow: hidden; /* Prevents content from overflowing */ 
     display: flex;
     flex-direction: column; /* Aligns children vertically */
 }
