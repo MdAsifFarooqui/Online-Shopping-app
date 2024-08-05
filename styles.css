@@ -16,7 +16,7 @@
     object-fit: cover; /* Maintains aspect ratio */
 }
 
-.card-body {
+.card-body{
     padding: 15px; /* Padding inside the card body */
     display: flex;
     flex-direction: column; /* Aligns children vertically */
