@@ -8,7 +8,7 @@ var options = {
 
     "handler": function (response){
         alert("Payment Done")
-        alert(response.razorpay_payment_id);  
+        alert(response.razorpay_payment_id);
         alert(response.razorpay_order_id);
         alert(response.razorpay_signature)
     },
@@ -38,4 +38,4 @@ rzp1.on('payment.failed', function (response){
 document.getElementById('rzp-button1').addEventListener('click' , function(e){
     rzp1.open();
     e.preventDefault();
-});
+}); 
