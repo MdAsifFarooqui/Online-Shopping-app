@@ -74,4 +74,4 @@ function preparePizzaCard(pizza){
     cardBody.appendChild(pTag);
     cardBody.appendChild(button);
     outputDiv.appendChild(colDiv);
-}
+} 
