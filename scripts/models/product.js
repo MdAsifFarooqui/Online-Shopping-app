@@ -13,4 +13,4 @@ class Product{
         this.isAddedInCart = false;
     }
 }
-export default Product;
+export default Product; 
