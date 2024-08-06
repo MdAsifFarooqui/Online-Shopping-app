@@ -38,4 +38,4 @@ rzp1.on('payment.failed', function (response){
 document.getElementById('rzp-button1').addEventListener('click' , function(e){
     rzp1.open();
     e.preventDefault();
-}); 
+});
