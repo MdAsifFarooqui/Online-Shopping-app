@@ -27,4 +27,4 @@ async function makeNetworkCall(){
     // });
     
 }
-export default makeNetworkCall;
+export default makeNetworkCall; 
