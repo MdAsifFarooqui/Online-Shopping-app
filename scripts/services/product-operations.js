@@ -34,4 +34,4 @@ import makeNetworkCall from "./api-client.js";
     }
  }
 
-export default productOperations; 
+export default productOperations;  
